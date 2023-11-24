@@ -41,8 +41,8 @@ $(document).ready(function(){
 document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
-        document.title = "Portfolio | Saurav Mukherjee";
-        $("#favicon").attr("href","assests/images/favicon.png");
+        document.title = "Portfolio | Kunal";
+        $("#favicon").attr("href","assests/images/favicon1.png");
     }
     else {
         document.title = "Come Back To Portfolio";
@@ -53,7 +53,7 @@ function(){
 
 // <!-- typed js effect starts -->
     var typed = new Typed(".typing-text", {
-        strings: ["Full-Stack development", "Machine Learning", "Cloud Computing", "Tech Communities"],
+        strings: ["Full-Stack development", "Cloud Computing", "Tech Communities"],
         loop: true,
         typeSpeed: 50,
 		backSpeed: 25,
