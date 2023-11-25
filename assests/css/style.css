@@ -69,6 +69,15 @@ header{
   background-color: #fff;
   box-shadow: 0 1px 4px rgba(146,161,176,.3);
 }
+.logo-img{
+  height: 1.8rem;
+  width: 4rem;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  border: #002057;
+  border-radius: 5px;
+}
 section{
   min-height: 100vh;
   padding: 2rem 9%;
