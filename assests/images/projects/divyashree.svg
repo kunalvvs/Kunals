@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d0045;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6c0ba9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.12" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.04" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bg)" />
+  <circle cx="750" cy="60" r="160" fill="white" fill-opacity="0.03"/>
+  <circle cx="60" cy="420" r="120" fill="white" fill-opacity="0.03"/>
+
+  <!-- Shopping bag icon -->
+  <path d="M36 58 L44 58 L44 50 Q44 38 56 38 Q68 38 68 50 L68 58 L76 58 L80 96 L32 96 Z" fill="none" stroke="white" stroke-width="3"/>
+  <line x1="44" y1="58" x2="44" y2="50" stroke="white" stroke-width="0"/>
+
+  <!-- Badge -->
+  <rect x="36" y="110" width="142" height="26" rx="13" fill="white" fill-opacity="0.15"/>
+  <text x="107" y="128" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="600">E-COMMERCE PLATFORM</text>
+
+  <!-- Title -->
+  <text x="36" y="190" font-family="Arial, sans-serif" font-size="36" font-weight="800" fill="white">Divyashree</text>
+  <text x="36" y="232" font-family="Arial, sans-serif" font-size="36" font-weight="800" fill="#e879f9">E-Commerce</text>
+
+  <!-- Divider -->
+  <rect x="36" y="250" width="60" height="3" rx="2" fill="#e879f9"/>
+
+  <!-- Description -->
+  <text x="36" y="282" font-family="Arial, sans-serif" font-size="14" fill="white" fill-opacity="0.8">Full-stack platform with advanced</text>
+  <text x="36" y="302" font-family="Arial, sans-serif" font-size="14" fill="white" fill-opacity="0.8">multi-section admin panel</text>
+
+  <!-- Tech chips -->
+  <rect x="36" y="324" width="80" height="24" rx="12" fill="#e879f9" fill-opacity="0.2"/>
+  <text x="76" y="340" font-family="Arial, sans-serif" font-size="11" fill="#e879f9" text-anchor="middle" font-weight="700">React.js</text>
+
+  <rect x="126" y="324" width="80" height="24" rx="12" fill="#e879f9" fill-opacity="0.2"/>
+  <text x="166" y="340" font-family="Arial, sans-serif" font-size="11" fill="#e879f9" text-anchor="middle" font-weight="700">Node.js</text>
+
+  <rect x="216" y="324" width="80" height="24" rx="12" fill="#e879f9" fill-opacity="0.2"/>
+  <text x="256" y="340" font-family="Arial, sans-serif" font-size="11" fill="#e879f9" text-anchor="middle" font-weight="700">MongoDB</text>
+
+  <rect x="36" y="356" width="80" height="24" rx="12" fill="white" fill-opacity="0.1"/>
+  <text x="76" y="372" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="700">Razorpay</text>
+
+  <rect x="126" y="356" width="80" height="24" rx="12" fill="white" fill-opacity="0.1"/>
+  <text x="166" y="372" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="700">Cloudinary</text>
+
+  <rect x="216" y="356" width="80" height="24" rx="12" fill="white" fill-opacity="0.1"/>
+  <text x="256" y="372" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="700">JWT Auth</text>
+
+  <!-- Right: Admin panel sections -->
+  <rect x="420" y="24" width="360" height="402" rx="16" fill="white" fill-opacity="0.05" stroke="white" stroke-opacity="0.08" stroke-width="1"/>
+
+  <text x="600" y="54" font-family="Arial, sans-serif" font-size="12" fill="white" fill-opacity="0.45" text-anchor="middle" font-weight="700" letter-spacing="2">ADMIN PANEL MODULES</text>
+
+  <!-- Module grid 2x3 -->
+  <rect x="438" y="66" width="154" height="80" rx="10" fill="url(#card)" stroke="white" stroke-opacity="0.1" stroke-width="1"/>
+  <text x="515" y="100" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">📦</text>
+  <text x="515" y="124" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="700" text-anchor="middle">Product Mgmt</text>
+
+  <rect x="606" y="66" width="154" height="80" rx="10" fill="url(#card)" stroke="white" stroke-opacity="0.1" stroke-width="1"/>
+  <text x="683" y="100" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">🛒</text>
+  <text x="683" y="124" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="700" text-anchor="middle">Order Mgmt</text>
+
+  <rect x="438" y="158" width="154" height="80" rx="10" fill="url(#card)" stroke="white" stroke-opacity="0.1" stroke-width="1"/>
+  <text x="515" y="192" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">👥</text>
+  <text x="515" y="216" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="700" text-anchor="middle">User Mgmt</text>
+
+  <rect x="606" y="158" width="154" height="80" rx="10" fill="url(#card)" stroke="white" stroke-opacity="0.1" stroke-width="1"/>
+  <text x="683" y="192" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">🏷️</text>
+  <text x="683" y="216" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="700" text-anchor="middle">Coupon System</text>
+
+  <rect x="438" y="250" width="154" height="80" rx="10" fill="url(#card)" stroke="white" stroke-opacity="0.1" stroke-width="1"/>
+  <text x="515" y="284" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">📊</text>
+  <text x="515" y="308" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="700" text-anchor="middle">Analytics</text>
+
+  <rect x="606" y="250" width="154" height="80" rx="10" fill="url(#card)" stroke="white" stroke-opacity="0.1" stroke-width="1"/>
+  <text x="683" y="284" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">🗂️</text>
+  <text x="683" y="308" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="700" text-anchor="middle">Inventory</text>
+
+  <!-- Stats row -->
+  <rect x="438" y="346" width="322" height="64" rx="10" fill="#e879f9" fill-opacity="0.12" stroke="#e879f9" stroke-opacity="0.25" stroke-width="1"/>
+  <text x="519" y="370" font-family="Arial, sans-serif" font-size="11" fill="#e879f9" fill-opacity="0.8" text-anchor="middle">PRODUCTS</text>
+  <text x="519" y="396" font-family="Arial, sans-serif" font-size="22" fill="white" font-weight="800" text-anchor="middle">∞</text>
+  <line x1="570" y1="354" x2="570" y2="402" stroke="white" stroke-opacity="0.1" stroke-width="1"/>
+  <text x="649" y="370" font-family="Arial, sans-serif" font-size="11" fill="#e879f9" fill-opacity="0.8" text-anchor="middle">PAYMENT</text>
+  <text x="649" y="396" font-family="Arial, sans-serif" font-size="22" fill="white" font-weight="800" text-anchor="middle">✓</text>
+  <line x1="700" y1="354" x2="700" y2="402" stroke="white" stroke-opacity="0.1" stroke-width="1"/>
+  <text x="740" y="370" font-family="Arial, sans-serif" font-size="11" fill="#e879f9" fill-opacity="0.8" text-anchor="middle">ROLES</text>
+  <text x="740" y="396" font-family="Arial, sans-serif" font-size="22" fill="white" font-weight="800" text-anchor="middle">3</text>
+</svg>

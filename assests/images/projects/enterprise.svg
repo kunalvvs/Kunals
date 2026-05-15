@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0d1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a3e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.03" />
+    </linearGradient>
+    <linearGradient id="bar1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bg)" />
+  <circle cx="720" cy="90" r="200" fill="#4f46e5" fill-opacity="0.04"/>
+  <circle cx="60" cy="400" r="130" fill="#7c3aed" fill-opacity="0.04"/>
+
+  <!-- Briefcase icon -->
+  <rect x="38" y="50" width="48" height="38" rx="5" fill="none" stroke="#818cf8" stroke-width="3"/>
+  <path d="M48 50 L48 44 Q48 38 56 38 L68 38 Q76 38 76 44 L76 50" fill="none" stroke="#818cf8" stroke-width="3"/>
+  <line x1="38" y1="68" x2="86" y2="68" stroke="#818cf8" stroke-width="2"/>
+
+  <!-- Badge -->
+  <rect x="36" y="112" width="148" height="26" rx="13" fill="#4f46e5" fill-opacity="0.3"/>
+  <text x="110" y="130" font-family="Arial, sans-serif" font-size="12" fill="#818cf8" text-anchor="middle" font-weight="700">HRM SOFTWARE</text>
+
+  <!-- Title -->
+  <text x="36" y="192" font-family="Arial, sans-serif" font-size="36" font-weight="800" fill="white">Enterprise</text>
+  <text x="36" y="236" font-family="Arial, sans-serif" font-size="36" font-weight="800" fill="#818cf8">Management</text>
+  <text x="36" y="270" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="white" fill-opacity="0.5">HRM System</text>
+
+  <!-- Divider -->
+  <rect x="36" y="285" width="60" height="3" rx="2" fill="#818cf8"/>
+
+  <!-- Description -->
+  <text x="36" y="316" font-family="Arial, sans-serif" font-size="14" fill="white" fill-opacity="0.8">Enterprise-grade HR software with</text>
+  <text x="36" y="336" font-family="Arial, sans-serif" font-size="14" fill="white" fill-opacity="0.8">payroll, RBAC &amp; performance mgmt</text>
+
+  <!-- Tech chips -->
+  <rect x="36" y="358" width="80" height="24" rx="12" fill="#4f46e5" fill-opacity="0.4"/>
+  <text x="76" y="374" font-family="Arial, sans-serif" font-size="11" fill="#818cf8" text-anchor="middle" font-weight="700">React.js</text>
+
+  <rect x="126" y="358" width="80" height="24" rx="12" fill="#4f46e5" fill-opacity="0.4"/>
+  <text x="166" y="374" font-family="Arial, sans-serif" font-size="11" fill="#818cf8" text-anchor="middle" font-weight="700">Node.js</text>
+
+  <rect x="216" y="358" width="80" height="24" rx="12" fill="#4f46e5" fill-opacity="0.4"/>
+  <text x="256" y="374" font-family="Arial, sans-serif" font-size="11" fill="#818cf8" text-anchor="middle" font-weight="700">PostgreSQL</text>
+
+  <!-- Right: HRM Dashboard -->
+  <rect x="420" y="20" width="365" height="410" rx="16" fill="url(#card)" stroke="white" stroke-opacity="0.06" stroke-width="1"/>
+
+  <!-- Top stats -->
+  <text x="600" y="48" font-family="Arial, sans-serif" font-size="11" fill="white" fill-opacity="0.35" text-anchor="middle" letter-spacing="2">DASHBOARD OVERVIEW</text>
+
+  <rect x="438" y="58" width="76" height="56" rx="10" fill="#4f46e5" fill-opacity="0.3" stroke="#4f46e5" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="476" y="80" font-family="Arial, sans-serif" font-size="18" fill="#818cf8" font-weight="800" text-anchor="middle">248</text>
+  <text x="476" y="102" font-family="Arial, sans-serif" font-size="10" fill="white" fill-opacity="0.6" text-anchor="middle">Employees</text>
+
+  <rect x="524" y="58" width="76" height="56" rx="10" fill="#7c3aed" fill-opacity="0.25" stroke="#7c3aed" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="562" y="80" font-family="Arial, sans-serif" font-size="18" fill="#c4b5fd" font-weight="800" text-anchor="middle">12</text>
+  <text x="562" y="102" font-family="Arial, sans-serif" font-size="10" fill="white" fill-opacity="0.6" text-anchor="middle">Departments</text>
+
+  <rect x="610" y="58" width="76" height="56" rx="10" fill="#4f46e5" fill-opacity="0.3" stroke="#4f46e5" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="648" y="80" font-family="Arial, sans-serif" font-size="18" fill="#818cf8" font-weight="800" text-anchor="middle">96%</text>
+  <text x="648" y="102" font-family="Arial, sans-serif" font-size="10" fill="white" fill-opacity="0.6" text-anchor="middle">Attendance</text>
+
+  <rect x="696" y="58" width="72" height="56" rx="10" fill="#7c3aed" fill-opacity="0.25" stroke="#7c3aed" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="732" y="80" font-family="Arial, sans-serif" font-size="18" fill="#c4b5fd" font-weight="800" text-anchor="middle">₹2.4M</text>
+  <text x="732" y="102" font-family="Arial, sans-serif" font-size="10" fill="white" fill-opacity="0.6" text-anchor="middle">Payroll</text>
+
+  <!-- Divider -->
+  <line x1="438" y1="128" x2="775" y2="128" stroke="white" stroke-opacity="0.06" stroke-width="1"/>
+
+  <!-- Module list -->
+  <text x="438" y="150" font-family="Arial, sans-serif" font-size="11" fill="white" fill-opacity="0.35" letter-spacing="1">CORE MODULES</text>
+
+  <!-- Employee -->
+  <rect x="438" y="162" width="155" height="46" rx="8" fill="url(#card)" stroke="white" stroke-opacity="0.08" stroke-width="1"/>
+  <text x="458" y="180" font-family="Arial, sans-serif" font-size="16">👤</text>
+  <text x="480" y="178" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="700">Onboarding</text>
+  <text x="480" y="196" font-family="Arial, sans-serif" font-size="10" fill="white" fill-opacity="0.5">Hire to Retire</text>
+
+  <!-- Payroll -->
+  <rect x="603" y="162" width="165" height="46" rx="8" fill="url(#card)" stroke="white" stroke-opacity="0.08" stroke-width="1"/>
+  <text x="623" y="180" font-family="Arial, sans-serif" font-size="16">💰</text>
+  <text x="645" y="178" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="700">Payroll</text>
+  <text x="645" y="196" font-family="Arial, sans-serif" font-size="10" fill="white" fill-opacity="0.5">Auto Salary Processing</text>
+
+  <!-- Leave -->
+  <rect x="438" y="218" width="155" height="46" rx="8" fill="url(#card)" stroke="white" stroke-opacity="0.08" stroke-width="1"/>
+  <text x="458" y="236" font-family="Arial, sans-serif" font-size="16">📅</text>
+  <text x="480" y="234" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="700">Leave Mgmt</text>
+  <text x="480" y="252" font-family="Arial, sans-serif" font-size="10" fill="white" fill-opacity="0.5">Approval Workflow</text>
+
+  <!-- Performance -->
+  <rect x="603" y="218" width="165" height="46" rx="8" fill="url(#card)" stroke="white" stroke-opacity="0.08" stroke-width="1"/>
+  <text x="623" y="236" font-family="Arial, sans-serif" font-size="16">📈</text>
+  <text x="645" y="234" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="700">Performance</text>
+  <text x="645" y="252" font-family="Arial, sans-serif" font-size="10" fill="white" fill-opacity="0.5">KPI &amp; Appraisal</text>
+
+  <!-- RBAC -->
+  <rect x="438" y="274" width="155" height="46" rx="8" fill="url(#card)" stroke="white" stroke-opacity="0.08" stroke-width="1"/>
+  <text x="458" y="292" font-family="Arial, sans-serif" font-size="16">🔐</text>
+  <text x="480" y="290" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="700">RBAC</text>
+  <text x="480" y="308" font-family="Arial, sans-serif" font-size="10" fill="white" fill-opacity="0.5">Role-based Access</text>
+
+  <!-- Attendance -->
+  <rect x="603" y="274" width="165" height="46" rx="8" fill="url(#card)" stroke="white" stroke-opacity="0.08" stroke-width="1"/>
+  <text x="623" y="292" font-family="Arial, sans-serif" font-size="16">⏱️</text>
+  <text x="645" y="290" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="700">Attendance</text>
+  <text x="645" y="308" font-family="Arial, sans-serif" font-size="10" fill="white" fill-opacity="0.5">Biometric &amp; Manual</text>
+
+  <!-- Payroll bar chart -->
+  <rect x="438" y="336" width="330" height="80" rx="10" fill="white" fill-opacity="0.04" stroke="white" stroke-opacity="0.06" stroke-width="1"/>
+  <text x="448" y="356" font-family="Arial, sans-serif" font-size="10" fill="white" fill-opacity="0.4">MONTHLY PAYROLL TREND</text>
+  <!-- bars -->
+  <rect x="452" y="364" width="26" height="36" rx="3" fill="url(#bar1)" fill-opacity="0.5"/>
+  <rect x="488" y="354" width="26" height="46" rx="3" fill="url(#bar1)" fill-opacity="0.6"/>
+  <rect x="524" y="358" width="26" height="42" rx="3" fill="url(#bar1)" fill-opacity="0.55"/>
+  <rect x="560" y="344" width="26" height="56" rx="3" fill="url(#bar1)" fill-opacity="0.7"/>
+  <rect x="596" y="348" width="26" height="52" rx="3" fill="url(#bar1)" fill-opacity="0.65"/>
+  <rect x="632" y="336" width="26" height="64" rx="3" fill="url(#bar1)"/>
+  <rect x="668" y="340" width="26" height="60" rx="3" fill="url(#bar1)" fill-opacity="0.85"/>
+  <text x="455" y="410" font-family="Arial, sans-serif" font-size="9" fill="white" fill-opacity="0.3">Sep</text>
+  <text x="491" y="410" font-family="Arial, sans-serif" font-size="9" fill="white" fill-opacity="0.3">Oct</text>
+  <text x="527" y="410" font-family="Arial, sans-serif" font-size="9" fill="white" fill-opacity="0.3">Nov</text>
+  <text x="563" y="410" font-family="Arial, sans-serif" font-size="9" fill="white" fill-opacity="0.3">Dec</text>
+  <text x="599" y="410" font-family="Arial, sans-serif" font-size="9" fill="white" fill-opacity="0.3">Jan</text>
+  <text x="635" y="410" font-family="Arial, sans-serif" font-size="9" fill="white" fill-opacity="0.3">Feb</text>
+  <text x="671" y="410" font-family="Arial, sans-serif" font-size="9" fill="white" fill-opacity="0.3">Mar</text>
+</svg>
