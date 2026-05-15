@@ -676,7 +676,7 @@ header .navbar ul li a:hover{
   box-shadow: 0 .5rem 1rem rgba(225, 219, 219, 0.895);
   position: relative;
   overflow:hidden;
-  height:30rem;
+  height:35rem;
 }
 .work .box-container .box img{
   height: 100%;
@@ -684,13 +684,14 @@ header .navbar ul li a:hover{
   object-fit: cover;
 }
 .work .box-container .box .content{
-  height: 100%;
   width:100%;
   position: absolute;
   top:85%; left:0;
-  background:rgba(255, 255, 255, 0.9);
+  bottom: 0;
+  background:rgba(255, 255, 255, 0.97);
   display: flex;
   flex-direction: column;
+  transition: top .4s ease;
 }
 .work .box-container .box .content .tag{
   display: flex;
@@ -698,6 +699,7 @@ header .navbar ul li a:hover{
   justify-content: space-between;
   align-items: center;
   height: 4.5rem;
+  flex-shrink: 0;
   width: 100%;
   padding-left: 1rem;
   background: #0f46a2;
@@ -707,22 +709,25 @@ header .navbar ul li a:hover{
   color: white;
 }
 .work .box-container .box:hover .content{
-  top: 25%;
+  top: 0;
 }
 .work .desc {
-  margin: 2rem;
+  margin: 1.5rem 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  flex: 1;
+  justify-content: space-between;
 }
 .work .desc p{
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+  line-height: 1.6;
 }
 .work .desc .btns{
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
+  flex-shrink: 0;
 }
 .work .desc .btns .btn{
   line-height: 0;
