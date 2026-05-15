@@ -18,6 +18,8 @@ html{
 body{
   background: #f7f7f7;
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  max-width: 100vw;
 }
 
 *::selection{
@@ -249,7 +251,7 @@ header .navbar ul li a:hover{
 }
 .home .btn {
   margin-top: 1rem;
-  position: absolute;
+  display: inline-block;
   line-height: 0;
   padding: 1.6rem 3rem;
   border-radius: 4em;
@@ -326,15 +328,20 @@ header .navbar ul li a:hover{
 /* social icons end */
 
 /* hero media queries starts*/
+@media(max-width:768px){
+  .home .image img{
+    margin-left: 0;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
+}
 @media(max-width:450px){
   .home .btn{
-    margin: 4rem 0;
+    margin: 1rem 0;
   }
   .socials{
-    margin-top: 12rem;
-  }
-  .home .image img{
-    margin-top: -12rem;
+    margin-top: 2rem;
   }
   .home .content p {
     font-size: 2.2rem;
@@ -514,20 +521,23 @@ header .navbar ul li a:hover{
   margin-left: 0.5rem;
 }
 /* skills media queries starts*/
+@media screen and (max-width: 900px) and (min-width: 601px) {
+  .skills .container .row {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 @media screen and (max-width: 600px) {
   .skills .container {
     padding: 0;
     margin: 0;
+    width: 100%;
+    margin-top: 5px;
   }
   .skills .container .row {
     grid-template-columns: repeat(2, 1fr);
     margin: 1rem;
     padding: 2rem 0.2rem 2rem 0.2rem;
     gap: 1rem;
-  }
-  .skills .container {
-    margin-top: 5px;
-    width: 100%;
   }
 }
 /* skills media queries ends*/
@@ -860,6 +870,8 @@ header .navbar ul li a:hover{
 }
 .experience .content .desc p{
   font-size: 1.2rem;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 /* view all button */
 .morebtn{
