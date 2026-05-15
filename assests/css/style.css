@@ -611,6 +611,12 @@ header .navbar ul li a:hover{
   text-align: left;
   color: #421cecf5;
 }
+.education .box-container .box .content .college-sub{
+  font-size: 1.3rem;
+  color: #555;
+  margin-left: 1rem;
+  text-align: left;
+}
 .education h4{
   font-size: 2rem;
   color: rgb(34, 109, 0);
